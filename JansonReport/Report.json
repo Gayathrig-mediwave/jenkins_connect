@@ -1,0 +1,561 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#Author: gayathridevi_g@mindwaveventures.com"
+      },
+      {
+        "line": 2,
+        "value": "#Keywords Summary :"
+      },
+      {
+        "line": 3,
+        "value": "#Feature: List of scenarios."
+      },
+      {
+        "line": 4,
+        "value": "#Scenario: Business rule through list of steps with arguments."
+      },
+      {
+        "line": 5,
+        "value": "#Given: Some precondition step"
+      },
+      {
+        "line": 6,
+        "value": "#When: Some key actions"
+      },
+      {
+        "line": 7,
+        "value": "#Then: To observe outcomes or validation"
+      },
+      {
+        "line": 8,
+        "value": "#And,But: To enumerate more Given,When,Then steps"
+      },
+      {
+        "line": 9,
+        "value": "#Scenario Outline: List of steps for data-driven as an Examples and \u003cplaceholder\u003e"
+      },
+      {
+        "line": 10,
+        "value": "#Examples: Container for s table"
+      },
+      {
+        "line": 11,
+        "value": "#Background: List of steps run before each of the scenarios"
+      },
+      {
+        "line": 12,
+        "value": "#\"\"\" (Doc Strings)"
+      },
+      {
+        "line": 13,
+        "value": "#| (Data Tables)"
+      },
+      {
+        "line": 14,
+        "value": "#@ (Tags/Labels):To group Scenarios"
+      },
+      {
+        "line": 15,
+        "value": "#\u003c\u003e (placeholder)"
+      },
+      {
+        "line": 16,
+        "value": "#\"\""
+      },
+      {
+        "line": 17,
+        "value": "## (Comments)"
+      },
+      {
+        "line": 18,
+        "value": "#Sample Feature Definition Template"
+      }
+    ],
+    "line": 20,
+    "elements": [
+      {
+        "line": 23,
+        "name": "Sign in",
+        "description": "",
+        "id": "acacium-portal;sign-in",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16883546500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "Pass the Url",
+            "match": {
+              "location": "StepDefnition.pass_the_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153836400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "scroll down to sign in",
+            "match": {
+              "location": "StepDefnition.scroll_down_to_sign_in()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2005686400,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "wait for some seconds",
+            "match": {
+              "location": "StepDefnition.wait_for_some_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4700685400,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "click sign in button",
+            "match": {
+              "location": "StepDefnition.click_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3458699700,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User inputs the email id",
+            "match": {
+              "location": "StepDefnition.user_inputs_the_email_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2503859900,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user enters the password",
+            "match": {
+              "location": "StepDefnition.user_enters_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3533933200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "user clicks not robot",
+            "match": {
+              "location": "StepDefnition.user_clicks_not_robot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 135826400,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "scroll to enter",
+            "match": {
+              "location": "StepDefnition.scroll_to_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1073456300,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "wait to click enter",
+            "match": {
+              "location": "StepDefnition.wait_to_click_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1196217000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user clicks enter",
+            "match": {
+              "location": "StepDefnition.user_clicks_enter()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3686041900,
+              "error_message": "java.lang.IndexOutOfBoundsException: Index: 1, Size: 1\r\n\tat java.util.ArrayList.rangeCheck(Unknown Source)\r\n\tat java.util.ArrayList.get(Unknown Source)\r\n\tat com.StepDefnition.StepDefnition.waits_to_navigate_to_new_tab_and_copies_the_otp_and_gets_back_to_the_portal(StepDefnition.java:95)\r\n\tat ✽.And waits to navigate to new tab and copies the otp and gets back to the portal(src/test/java/com/FeatureFile/AcaciumFeatureFile.feature:34)\r\n",
+              "status": "failed"
+            },
+            "line": 34,
+            "name": "waits to navigate to new tab and copies the otp and gets back to the portal",
+            "match": {
+              "location": "StepDefnition.waits_to_navigate_to_new_tab_and_copies_the_otp_and_gets_back_to_the_portal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 35,
+            "name": "user should paste code using robo class",
+            "match": {
+              "location": "StepDefnition.user_should_paste_code_using_robo_class()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 36,
+            "name": "user allows delay to verify",
+            "match": {
+              "location": "StepDefnition.user_allows_delay_to_verify()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 37,
+            "name": "user clicks verify",
+            "match": {
+              "location": "StepDefnition.user_clicks_verify()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 22,
+            "name": "@Signin"
+          }
+        ]
+      },
+      {
+        "line": 40,
+        "name": "Book and rearrange initial assessment",
+        "description": "",
+        "id": "acacium-portal;book-and-rearrange-initial-assessment",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23114600401,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(//a[normalize-space()\u003d\u0027Book assessment\u0027])[1]\"}\n  (Session info: chrome\u003d108.0.5359.99)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.4.0\u0027, revision: \u0027e5c75ed026a\u0027\nSystem info: host: \u0027GAYATHRI-G\u0027, ip: \u0027172.20.10.3\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_301\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [9e20083d0f3b985f0ae6b22e56f8d5f3, findElement {using\u003dxpath, value\u003d(//a[normalize-space()\u003d\u0027Book assessment\u0027])[1]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.99, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\MEDIWA~1\\AppData\\L...}, goog:chromeOptions: {debuggerAddress: localhost:58977}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:58977/devtoo..., se:cdpVersion: 108.0.5359.99, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 9e20083d0f3b985f0ae6b22e56f8d5f3\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)\r\n\tat java.lang.reflect.Constructor.newInstance(Unknown Source)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy21.getWrappedElement(Unknown Source)\r\n\tat org.openqa.selenium.remote.internal.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:51)\r\n\tat java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)\r\n\tat java.util.Spliterators$ArraySpliterator.forEachRemaining(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.copyInto(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)\r\n\tat java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)\r\n\tat java.util.stream.AbstractPipeline.evaluate(Unknown Source)\r\n\tat java.util.stream.ReferencePipeline.collect(Unknown Source)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:478)\r\n\tat com.Base.Base_Class.jsScrollDownElementFalse(Base_Class.java:100)\r\n\tat com.StepDefnition.StepDefnition.scroll_down_to_book_assessment_cta(StepDefnition.java:148)\r\n\tat ✽.When scroll down to book assessment cta(src/test/java/com/FeatureFile/AcaciumFeatureFile.feature:41)\r\n",
+              "status": "failed"
+            },
+            "line": 41,
+            "name": "scroll down to book assessment cta",
+            "match": {
+              "location": "StepDefnition.scroll_down_to_book_assessment_cta()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 42,
+            "name": "click the book assessment button",
+            "match": {
+              "location": "StepDefnition.click_the_book_assessment_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 43,
+            "name": "click yes after waiting for some seconds",
+            "match": {
+              "location": "StepDefnition.click_yes_after_waiting_for_some_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 44,
+            "name": "click ok after waiting for some seconds",
+            "match": {
+              "location": "StepDefnition.click_ok_after_waiting_for_some_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 45,
+            "name": "scroll down to calendar after waiting for some seconds",
+            "match": {
+              "location": "StepDefnition.scroll_down_to_calendar_after_waiting_for_some_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 46,
+            "name": "click previous and next dates to show all available dates",
+            "match": {
+              "location": "StepDefnition.click_previous_and_next_dates_to_show_all_available_dates()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 47,
+            "name": "click on a date randomly from a list of dates available after waiting for some seconds",
+            "match": {
+              "location": "StepDefnition.click_on_a_date_randomly_from_a_list_of_dates_available_after_waiting_for_some_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 48,
+            "name": "click on next after few seconds",
+            "match": {
+              "location": "StepDefnition.click_on_next_after_few_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 49,
+            "name": "choose a time slot randomly from the available list after few seconds",
+            "match": {
+              "location": "StepDefnition.choose_a_time_slot_randomly_from_the_available_list_after_few_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 50,
+            "name": "click on view appointments after some time",
+            "match": {
+              "location": "StepDefnition.click_on_view_appointments_after_some_time()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "click on rearrange cta",
+            "match": {
+              "location": "StepDefnition.click_on_rearrange_cta()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "click on yes",
+            "match": {
+              "location": "StepDefnition.click_on_yes()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "scroll down to calendar again after waiting for some seconds",
+            "match": {
+              "location": "StepDefnition.scroll_down_to_calendar_again_after_waiting_for_some_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "click previous and next dates again to show all available dates",
+            "match": {
+              "location": "StepDefnition.click_previous_and_next_dates_again_to_show_all_available_dates()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "click on a date randomly from a list of dates available again after waiting for some seconds",
+            "match": {
+              "location": "StepDefnition.click_on_a_date_randomly_from_a_list_of_dates_available_again_after_waiting_for_some_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "click on next after few seconds again",
+            "match": {
+              "location": "StepDefnition.click_on_next_after_few_seconds_again()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "choose a time slot randomly from the available list  againafter few seconds",
+            "match": {
+              "location": "StepDefnition.choose_a_time_slot_randomly_from_the_available_list_againafter_few_seconds()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "click on view appointments after some time again",
+            "match": {
+              "location": "StepDefnition.click_on_view_appointments_after_some_time_again()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "click on logo",
+            "match": {
+              "location": "StepDefnition.click_on_logo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "scroll to care progress",
+            "match": {
+              "location": "StepDefnition.scroll_to_care_progress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "logout",
+            "match": {
+              "location": "StepDefnition.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@BookAndRearrangeInitialAssessment"
+          }
+        ]
+      }
+    ],
+    "name": "Acacium Portal",
+    "description": "",
+    "id": "acacium-portal",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/FeatureFile/AcaciumFeatureFile.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@AcaciumPortal"
+      }
+    ]
+  }
+]rogress",
+            "match": {
+              "location": "StepDefnition.scroll_to_care_progress()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "logout",
+            "match": {
+              "location": "StepDefnition.logout()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 39,
+            "name": "@BookAndRearrangeInitialAssessment"
+          }
+        ]
+      }
+    ],
+    "name": "Acacium Portal",
+    "description": "",
+    "id": "acacium-portal",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/FeatureFile/AcaciumFeatureFile.feature",
+    "tags": [
+      {
+        "line": 19,
+        "name": "@AcaciumPortal"
+      }
+    ]
+  }
+]
