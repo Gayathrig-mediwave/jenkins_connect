@@ -69,7 +69,7 @@ public class LoginPage {
 	}
 
 	// Xpath for click code
-	@FindBy(xpath = "(//td[@class='ng-binding'][normalize-space()='Your Xyla digital therapies login pin'])[1]")
+	@FindBy(xpath = "(//td[@class='ng-binding'][normalize-space()='My Mental Health Portal code'])[1]")
 	private WebElement click_code;
 
 	public WebElement getClick_code() {
